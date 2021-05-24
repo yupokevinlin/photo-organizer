@@ -1,0 +1,9 @@
+# IntelliJ
+.idea/
+
+# Node modules
+/node_modules/
+
+# build
+/build/
+/dist/
