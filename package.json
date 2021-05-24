@@ -1,8 +1,8 @@
 {
-  "name": "photo-editor",
-  "productName": "Photo Editor",
-  "version": "1.0.0",
-  "description": "Photo Editor",
+  "name": "photo-organizer",
+  "productName": "Photo Organizer",
+  "version": "0.0.1",
+  "description": "Photo Organizer",
   "main": "./build/main.js",
   "scripts": {
     "test": "jest",
@@ -24,7 +24,7 @@
       "dist/**/*",
       "package.json"
     ],
-    "appId": "photo-editor",
+    "appId": "photo-organizer",
     "win": {
       "target": [
         "portable"
@@ -35,7 +35,7 @@
     "nsis": {
       "installerIcon": "./build/assets/icon.ico",
       "uninstallerIcon": "./build/assets/icon.ico",
-      "uninstallDisplayName": "Photo Editor",
+      "uninstallDisplayName": "Photo Organizer",
       "oneClick": false,
       "allowToChangeInstallationDirectory": true
     }
